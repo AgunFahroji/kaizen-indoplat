@@ -1,7 +1,7 @@
 :root {
     --hijau: #00FF00;
     --biru: #2130FF;
-    --shadow: 0 3px 3px rgb(0 0 0 /0.5);
+    --shadow: 0 5px 5px rgb(0 0 0 /0.5);
 }
 
 * {
@@ -62,9 +62,18 @@
     text-align: justify;
 }
 
+.about span {
+    font-weight: bold;
+}
+
 .program .card,
 .gallery img {
     box-shadow: var(--shadow);
+}
+
+.program .as:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
 }
 
 .program .card a {
@@ -73,10 +82,15 @@
 
 .program .card p {
     font-size: 12px;
+    min-height: 40px;
 }
 
 .contact {
     padding-top: 100px;
+}
+
+.logo-bawah {
+    text-align: center;
 }
 
 .sosmed i {
