@@ -104,12 +104,17 @@ footer {
     margin-top: 40px;
     background-color: #00FF00;
     padding: 20px;
+    overflow: hidden;
 }
 
 footer a {
     text-decoration: none;
     color: #2130FF;
     line-height: 40px;
+}
+
+section {
+    overflow: hidden;
 }
 
 

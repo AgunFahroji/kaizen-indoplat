@@ -101,12 +101,17 @@ footer {
     margin-top: 40px;
     background-color: var(--hijau);
     padding: 20px;
+    overflow: hidden;
 }
 
 footer a {
     text-decoration: none;
     color: var(--biru);
     line-height: 40px;
+}
+
+section {
+    overflow: hidden;
 }
 
 
