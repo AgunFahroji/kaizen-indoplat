@@ -25,6 +25,10 @@
     color: var(--hijau);
 }
 
+.navbar-toggler {
+    background-color: #00FF00;
+}
+
 .home {
     margin-top: -80px;
     background-color: var(--biru);
