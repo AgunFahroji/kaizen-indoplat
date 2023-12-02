@@ -1,0 +1,152 @@
+:root {
+    --shadow: 0 3px 3px rgb(0 0 0 /0.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #565254;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.home {
+    padding-top: 120px;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home span,
+.about h2,
+.program h2,
+.gallery h2,
+.contact h2 {
+    color: #2130FF;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home img {
+    height: 360px;
+    border-radius: 40px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.about,
+.gallery {
+    margin-top: 100px;
+    background-color: #00FF00;
+    padding: 100px;
+}
+
+.program {
+    margin-top: 100px;
+}
+
+.about p {
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.program .card,
+.gallery img {
+    box-shadow: var(--shadow);
+}
+
+.program .card a {
+    text-decoration: none;
+}
+
+.program .card p {
+    font-size: 12px;
+}
+
+.contact {
+    padding-top: 100px;
+}
+
+.sosmed i {
+    font-size: 32px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #00FF00;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #565254;
+    line-height: 40px;
+}
+
+
+/* Media Query */
+
+
+/* Extra Large */
+
+@media (max-width: 1200px) {}
+
+
+/* Laptop */
+
+@media (max-width: 992px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width: 786px) {
+    html {
+        font-size: 60%;
+    }
+    .home img {
+        height: 250px;
+        border-radius: 40px;
+        margin-top: -50px;
+    }
+    .contact h4 {
+        padding-top: 40px;
+    }
+}
+
+
+/* Mobile phone */
+
+@media (max-width: 576px) {
+    html {
+        font-size: 65%;
+    }
+    .home img {
+        height: 250px;
+        border-radius: 40px;
+        margin-top: 40px;
+    }
+    .about,
+    .gallery {
+        padding: 12px;
+    }
+    .contact h4 {
+        padding-top: 40px;
+    }
+    .sosmed i {
+        font-size: 22px;
+    }
+}
